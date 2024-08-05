@@ -1,10 +1,11 @@
-import { DB_URI } from './config';
+import { DB_URI } from './config.js';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-        DB_URI: config.DB_URI,
+        DB_URI: DB_URI
     }
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+

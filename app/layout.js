@@ -3,7 +3,7 @@ import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
 import TopNav from "@/components/TopNav";
 
 export const metadata = {
-  title: "Nextecon",
+  title: "Nextecom",
   description: "eCommerce app using next.js",
 };
 
