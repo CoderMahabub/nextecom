@@ -1,6 +1,7 @@
 import "./globals.css";
 import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
 import TopNav from "@/components/TopNav";
+import toast, { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Nextecom",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body >
         <TopNav />
+        <Toaster></Toaster>
         {children}
       </body>
     </html>
